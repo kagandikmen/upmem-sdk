@@ -1,0 +1,2287 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)https://sdk.upmem.com/ -->
+<html lang="en" class="h-100"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="UPMEM Software Development Kit">
+  <title>UPMEM DPU SDK</title>
+
+  <link rel="canonical" href="https://sdk.upmem.com/">
+  <link rel="shortcut icon" href="https://sdk.upmem.com/stable/_static/fav_upmem_32.ico">
+
+  <!-- Bootstrap core CSS -->
+  <link href="./UPMEM DPU SDK_files/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    .footer {
+      background-color: #343131;
+    }
+
+    .themed-grid-col {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      background-color: rgba(86, 61, 124, .15);
+      border: 1px solid rgba(86, 61, 124, .2);
+    }
+  </style>
+</head>
+
+<body class="d-flex flex-column h-100">
+  <main role="main" class="flex-shrink-0">
+    <div class="jumbotron">
+      <div class="container">
+        <h1 class="display-3">
+          <img src="./UPMEM DPU SDK_files/UPMEM.png" alt="UPMEM Logo">
+          UPMEM SDK
+        </h1>
+        <p>The Software Development Kit for programming and using the DPU provided by the UPMEM Acceleration platform.
+        </p>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2 class="mt-4">SDK Releases</h2>
+
+      <div class="pt-3 pb-2 mb-3 border-bottom">
+        <h1 class="h3">Last stable</h1>
+      </div>
+      <div class="row mb-2">
+        <div class="col-md-2 themed-grid-col">version <strong>2025.1.0</strong></div>
+        <div class="col-md-10 themed-grid-col">
+
+          <div class="row">
+            <div class="col-md-3">Debian 10 (Buster) - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2025.1.0/debian_10/upmem-2025.1.0-Linux-x86_64.tar.gz">upmem-2025.1.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2025.1.0/debian_10/upmem_2025.1.0_amd64.deb">upmem_2025.1.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">firmware <a href="http://sdk-releases.upmem.com/2025.1.0/debian_10/upmem-firmware_2025.1.0_amd64.deb">upmem-firmware_2025.1.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2025.1.0/debian_10/upmem-driver-dkms_2025.1.0_amd64.deb">upmem-driver-dkms_2025.1.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Ubuntu 20.04 LTS - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2025.1.0/ubuntu_20.04/upmem-2025.1.0-Linux-x86_64.tar.gz">upmem-2025.1.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2025.1.0/ubuntu_20.04/upmem_2025.1.0_amd64.deb">upmem_2025.1.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">firmware <a href="http://sdk-releases.upmem.com/2025.1.0/ubuntu_20.04/upmem-firmware_2025.1.0_amd64.deb">upmem-firmware_2025.1.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2025.1.0/ubuntu_20.04/upmem-driver-dkms_2025.1.0_amd64.deb">upmem-driver-dkms_2025.1.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Ubuntu 22.04 LTS - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2025.1.0/ubuntu_22.04/upmem-2025.1.0-Linux-x86_64.tar.gz">upmem-2025.1.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2025.1.0/ubuntu_22.04/upmem_2025.1.0_amd64.deb">upmem_2025.1.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">firmware <a href="http://sdk-releases.upmem.com/2025.1.0/ubuntu_22.04/upmem-firmware_2025.1.0_amd64.deb">upmem-firmware_2025.1.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2025.1.0/ubuntu_22.04/upmem-driver-dkms_2025.1.0_amd64.deb">upmem-driver-dkms_2025.1.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Rocky 8 - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2025.1.0/rocky_8/upmem-2025.1.0-Linux-x86_64.tar.gz">upmem-2025.1.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2025.1.0/rocky_8/upmem-2025.1.0-1.x86_64.rpm">upmem-2025.1.0-1.x86_64.rpm</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">firmware <a href="http://sdk-releases.upmem.com/2025.1.0/rocky_8/upmem-firmware-2025.1.0-1.x86_64.rpm">upmem-firmware-2025.1.0-1.x86_64.rpm</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2025.1.0/rocky_8/upmem-driver-dkms-2025.1.0-1dkms.noarch.rpm">upmem-driver-dkms-2025.1.0-1dkms.noarch.rpm</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">&nbsp;</div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Firmware packages</div>
+            <div class="col-md-9"><a href="http://sdk-releases.upmem.com/2025.1.0/upmem-bios-2025.1.0-Linux-x86_64.tar.gz">BIOS
+                firmware</a><br>
+              <a href="http://sdk-releases.upmem.com/2025.1.0/upmem-mcu-firmware-2025.1.0-Linux-x86_64.tar.gz">MCU
+                firmware</a><br>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Sources</div>
+            <div class="col-md-9"><a href="http://sdk-releases.upmem.com/2025.1.0/upmem-src-2025.1.0-Linux-x86_64.tar.gz">Backends
+                (communication library) &amp; DPU runtime</a><br>
+              <a href="http://sdk-releases.upmem.com/2025.1.0/upmem-driver-2025.1.0.tar.gz">Driver (kernel
+                module)</a><br>
+              <a href="https://github.com/upmem/llvm-project/tree/2025.1.0">LLVM (compiler/debugger)</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Documentation tarball</div>
+            <div class="col-md-9"><a href="http://sdk-releases.upmem.com/2025.1.0/upmem-doc-2025.1.0-Linux-x86_64.tar.gz">upmem-doc-2025.1.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">
+              <p><a class="btn btn-primary btn-sm" href="https://sdk.upmem.com/2025.1.0/" role="button">Online SDK documentation</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="pt-3 pb-2 mb-3 border-bottom">
+        <h1 class="h3">Previous versions</h1>
+      </div>
+      <div class="row mb-2">
+        <div class="col-md-2 themed-grid-col">version <strong>2024.2.0</strong></div>
+        <div class="col-md-10 themed-grid-col">
+
+          <div class="row">
+            <div class="col-md-3">Debian 10 (Buster) - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2024.2.0/debian_10/upmem-2024.2.0-Linux-x86_64.tar.gz">upmem-2024.2.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2024.2.0/debian_10/upmem_2024.2.0_amd64.deb">upmem_2024.2.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">firmware <a href="http://sdk-releases.upmem.com/2024.2.0/debian_10/upmem-firmware_2024.2.0_amd64.deb">upmem-firmware_2024.2.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2024.2.0/debian_10/upmem-driver-dkms_2024.2.0_amd64.deb">upmem-driver-dkms_2024.2.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Ubuntu 20.04 LTS - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2024.2.0/ubuntu_20.04/upmem-2024.2.0-Linux-x86_64.tar.gz">upmem-2024.2.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2024.2.0/ubuntu_20.04/upmem_2024.2.0_amd64.deb">upmem_2024.2.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">firmware <a href="http://sdk-releases.upmem.com/2024.2.0/ubuntu_20.04/upmem-firmware_2024.2.0_amd64.deb">upmem-firmware_2024.2.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2024.2.0/ubuntu_20.04/upmem-driver-dkms_2024.2.0_amd64.deb">upmem-driver-dkms_2024.2.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Ubuntu 22.04 LTS - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2024.2.0/ubuntu_22.04/upmem-2024.2.0-Linux-x86_64.tar.gz">upmem-2024.2.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2024.2.0/ubuntu_22.04/upmem_2024.2.0_amd64.deb">upmem_2024.2.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">firmware <a href="http://sdk-releases.upmem.com/2024.2.0/ubuntu_22.04/upmem-firmware_2024.2.0_amd64.deb">upmem-firmware_2024.2.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2024.2.0/ubuntu_22.04/upmem-driver-dkms_2024.2.0_amd64.deb">upmem-driver-dkms_2024.2.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Rocky 8 - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2024.2.0/rocky_8/upmem-2024.2.0-Linux-x86_64.tar.gz">upmem-2024.2.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2024.2.0/rocky_8/upmem-2024.2.0-1.x86_64.rpm">upmem-2024.2.0-1.x86_64.rpm</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">firmware <a href="http://sdk-releases.upmem.com/2024.2.0/rocky_8/upmem-firmware-2024.2.0-1.x86_64.rpm">upmem-firmware-2024.2.0-1.x86_64.rpm</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2024.2.0/rocky_8/upmem-driver-dkms-2024.2.0-1dkms.noarch.rpm">upmem-driver-dkms-2024.2.0-1dkms.noarch.rpm</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">&nbsp;</div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Firmware packages</div>
+            <div class="col-md-9"><a href="http://sdk-releases.upmem.com/2024.2.0/upmem-bios-2024.2.0-Linux-x86_64.tar.gz">BIOS
+                firmware</a><br>
+              <a href="http://sdk-releases.upmem.com/2024.2.0/upmem-mcu-firmware-2024.2.0-Linux-x86_64.tar.gz">MCU
+                firmware</a><br>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Sources</div>
+            <div class="col-md-9"><a href="http://sdk-releases.upmem.com/2024.2.0/upmem-src-2024.2.0-Linux-x86_64.tar.gz">Backends
+                (communication library) &amp; DPU runtime</a><br>
+              <a href="http://sdk-releases.upmem.com/2024.2.0/upmem-driver-2024.2.0.tar.gz">Driver (kernel
+                module)</a><br>
+              <a href="https://github.com/upmem/llvm-project/tree/2024.2.0">LLVM (compiler/debugger)</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Documentation tarball</div>
+            <div class="col-md-9"><a href="http://sdk-releases.upmem.com/2024.2.0/upmem-doc-2024.2.0-Linux-x86_64.tar.gz">upmem-doc-2024.2.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">
+              <p><a class="btn btn-primary btn-sm" href="https://sdk.upmem.com/2024.2.0/" role="button">Online SDK documentation</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mb-2">
+        <div class="col-md-2 themed-grid-col">version <strong>2024.1.0</strong></div>
+        <div class="col-md-10 themed-grid-col">
+
+          <div class="row">
+            <div class="col-md-3">Debian 10 (Buster) - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2024.1.0/debian_10/upmem-2024.1.0-Linux-x86_64.tar.gz">upmem-2024.1.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2024.1.0/debian_10/upmem_2024.1.0_amd64.deb">upmem_2024.1.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">firmware <a href="http://sdk-releases.upmem.com/2024.1.0/debian_10/upmem-firmware_2024.1.0_amd64.deb">upmem-firmware_2024.1.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2024.1.0/debian_10/upmem-driver-dkms_2024.1.0_amd64.deb">upmem-driver-dkms_2024.1.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Ubuntu 20.04 LTS - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2024.1.0/ubuntu_20.04/upmem-2024.1.0-Linux-x86_64.tar.gz">upmem-2024.1.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2024.1.0/ubuntu_20.04/upmem_2024.1.0_amd64.deb">upmem_2024.1.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">firmware <a href="http://sdk-releases.upmem.com/2024.1.0/ubuntu_20.04/upmem-firmware_2024.1.0_amd64.deb">upmem-firmware_2024.1.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2024.1.0/ubuntu_20.04/upmem-driver-dkms_2024.1.0_amd64.deb">upmem-driver-dkms_2024.1.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Ubuntu 22.04 LTS - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2024.1.0/ubuntu_22.04/upmem-2024.1.0-Linux-x86_64.tar.gz">upmem-2024.1.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2024.1.0/ubuntu_22.04/upmem_2024.1.0_amd64.deb">upmem_2024.1.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">firmware <a href="http://sdk-releases.upmem.com/2024.1.0/ubuntu_22.04/upmem-firmware_2024.1.0_amd64.deb">upmem-firmware_2024.1.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2024.1.0/ubuntu_22.04/upmem-driver-dkms_2024.1.0_amd64.deb">upmem-driver-dkms_2024.1.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Rocky 8 - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2024.1.0/rocky_8/upmem-2024.1.0-Linux-x86_64.tar.gz">upmem-2024.1.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2024.1.0/rocky_8/upmem-2024.1.0-1.x86_64.rpm">upmem-2024.1.0-1.x86_64.rpm</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">firmware <a href="http://sdk-releases.upmem.com/2024.1.0/rocky_8/upmem-firmware-2024.1.0-1.x86_64.rpm">upmem-firmware-2024.1.0-1.x86_64.rpm</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2024.1.0/rocky_8/upmem-driver-dkms-2024.1.0-1dkms.noarch.rpm">upmem-driver-dkms-2024.1.0-1dkms.noarch.rpm</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">&nbsp;</div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Firmware packages</div>
+            <div class="col-md-9"><a href="http://sdk-releases.upmem.com/2024.1.0/upmem-bios-2024.1.0-Linux-x86_64.tar.gz">BIOS
+                firmware</a><br>
+              <a href="http://sdk-releases.upmem.com/2024.1.0/upmem-mcu-firmware-2024.1.0-Linux-x86_64.tar.gz">MCU
+                firmware</a><br>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Sources</div>
+            <div class="col-md-9"><a href="http://sdk-releases.upmem.com/2024.1.0/upmem-src-2024.1.0-Linux-x86_64.tar.gz">Backends
+                (communication library) &amp; DPU runtime</a><br>
+              <a href="http://sdk-releases.upmem.com/2024.1.0/upmem-driver-2024.1.0.tar.gz">Driver (kernel
+                module)</a><br>
+              <a href="https://github.com/upmem/llvm-project/tree/2024.1.0">LLVM (compiler/debugger)</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Documentation tarball</div>
+            <div class="col-md-9"><a href="http://sdk-releases.upmem.com/2024.1.0/upmem-doc-2024.1.0-Linux-x86_64.tar.gz">upmem-doc-2024.1.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">
+              <p><a class="btn btn-primary btn-sm" href="https://sdk.upmem.com/2024.1.0/" role="button">Online SDK documentation</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mb-2">
+        <div class="col-md-2 themed-grid-col">version <strong>2023.2.0</strong></div>
+        <div class="col-md-10 themed-grid-col">
+
+          <div class="row">
+            <div class="col-md-3">Debian 10 (Buster) - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2023.2.0/debian_10/upmem-2023.2.0-Linux-x86_64.tar.gz">upmem-2023.2.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2023.2.0/debian_10/upmem_2023.2.0_amd64.deb">upmem_2023.2.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2023.2.0/debian_10/upmem-driver-dkms_2023.2.0_amd64.deb">upmem-driver-dkms_2023.2.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Ubuntu 18.04 LTS - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2023.2.0/ubuntu_18.04/upmem-2023.2.0-Linux-x86_64.tar.gz">upmem-2023.2.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2023.2.0/ubuntu_18.04/upmem_2023.2.0_amd64.deb">upmem_2023.2.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2023.2.0/ubuntu_18.04/upmem-driver-dkms_2023.2.0_amd64.deb">upmem-driver-dkms_2023.2.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Ubuntu 20.04 LTS - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2023.2.0/ubuntu_20.04/upmem-2023.2.0-Linux-x86_64.tar.gz">upmem-2023.2.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2023.2.0/ubuntu_20.04/upmem_2023.2.0_amd64.deb">upmem_2023.2.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2023.2.0/ubuntu_20.04/upmem-driver-dkms_2023.2.0_amd64.deb">upmem-driver-dkms_2023.2.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Ubuntu 22.04 LTS - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2023.2.0/ubuntu_22.04/upmem-2023.2.0-Linux-x86_64.tar.gz">upmem-2023.2.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2023.2.0/ubuntu_22.04/upmem_2023.2.0_amd64.deb">upmem_2023.2.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2023.2.0/ubuntu_22.04/upmem-driver-dkms_2023.2.0_amd64.deb">upmem-driver-dkms_2023.2.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Centos 7 - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2023.2.0/centos_7/upmem-2023.2.0-Linux-x86_64.tar.gz">upmem-2023.2.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2023.2.0/centos_7/upmem-2023.2.0-1.x86_64.rpm">upmem-2023.2.0-1.x86_64.rpm</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2023.2.0/centos_7/upmem-driver-dkms-2023.2.0-1dkms.noarch.rpm">upmem-driver-dkms-2023.2.0-1dkms.noarch.rpm</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Rocky 8 - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2023.2.0/rocky_8/upmem-2023.2.0-Linux-x86_64.tar.gz">upmem-2023.2.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2023.2.0/rocky_8/upmem-2023.2.0-1.x86_64.rpm">upmem-2023.2.0-1.x86_64.rpm</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2023.2.0/rocky_8/upmem-driver-dkms-2023.2.0-1dkms.noarch.rpm">upmem-driver-dkms-2023.2.0-1dkms.noarch.rpm</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">&nbsp;</div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Firmware packages</div>
+            <div class="col-md-9"><a href="http://sdk-releases.upmem.com/2023.2.0/upmem-bios-2023.2.0-Linux-x86_64.tar.gz">BIOS
+                firmware</a><br>
+              <a href="http://sdk-releases.upmem.com/2023.2.0/upmem-mcu-firmware-2023.2.0-Linux-x86_64.tar.gz">MCU
+                firmware</a><br>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Sources</div>
+            <div class="col-md-9"><a href="http://sdk-releases.upmem.com/2023.2.0/upmem-src-2023.2.0-Linux-x86_64.tar.gz">Backends
+                (communication library) &amp; DPU runtime</a><br>
+              <a href="http://sdk-releases.upmem.com/2023.2.0/upmem-driver-2023.2.0.tar.gz">Driver (kernel
+                module)</a><br>
+              <a href="https://github.com/upmem/llvm-project/tree/2023.2.0">LLVM (compiler/debugger)</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Documentation tarball</div>
+            <div class="col-md-9"><a href="http://sdk-releases.upmem.com/2023.2.0/upmem-doc-2023.2.0-Linux-x86_64.tar.gz">upmem-doc-2023.2.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">
+              <p><a class="btn btn-primary btn-sm" href="https://sdk.upmem.com/2023.2.0/" role="button">Online SDK documentation</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mb-2">
+        <div class="col-md-2 themed-grid-col">version <strong>2023.1.0</strong></div>
+        <div class="col-md-10 themed-grid-col">
+
+          <div class="row">
+            <div class="col-md-3">Debian 10 (Buster) - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2023.1.0/debian_10/upmem-2023.1.0-Linux-x86_64.tar.gz">upmem-2023.1.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2023.1.0/debian_10/upmem_2023.1.0_amd64.deb">upmem_2023.1.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2023.1.0/debian_10/upmem-driver-dkms_2023.1.0_amd64.deb">upmem-driver-dkms_2023.1.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Ubuntu 18.04 LTS - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2023.1.0/ubuntu_18.04/upmem-2023.1.0-Linux-x86_64.tar.gz">upmem-2023.1.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2023.1.0/ubuntu_18.04/upmem_2023.1.0_amd64.deb">upmem_2023.1.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2023.1.0/ubuntu_18.04/upmem-driver-dkms_2023.1.0_amd64.deb">upmem-driver-dkms_2023.1.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Ubuntu 20.04 LTS - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2023.1.0/ubuntu_20.04/upmem-2023.1.0-Linux-x86_64.tar.gz">upmem-2023.1.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2023.1.0/ubuntu_20.04/upmem_2023.1.0_amd64.deb">upmem_2023.1.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2023.1.0/ubuntu_20.04/upmem-driver-dkms_2023.1.0_amd64.deb">upmem-driver-dkms_2023.1.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Centos 7 - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2023.1.0/centos_7/upmem-2023.1.0-Linux-x86_64.tar.gz">upmem-2023.1.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2023.1.0/centos_7/upmem-2023.1.0-1.x86_64.rpm">upmem-2023.1.0-1.x86_64.rpm</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2023.1.0/centos_7/upmem-driver-dkms-2023.1.0-1dkms.noarch.rpm">upmem-driver-dkms-2023.1.0-1dkms.noarch.rpm</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">&nbsp;</div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Firmware packages</div>
+            <div class="col-md-9"><a href="http://sdk-releases.upmem.com/2023.1.0/upmem-bios-2023.1.0-Linux-x86_64.tar.gz">BIOS
+                firmware</a><br>
+              <a href="http://sdk-releases.upmem.com/2023.1.0/upmem-mcu-firmware-2023.1.0-Linux-x86_64.tar.gz">MCU
+                firmware</a><br>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Sources</div>
+            <div class="col-md-9"><a href="http://sdk-releases.upmem.com/2023.1.0/upmem-src-2023.1.0-Linux-x86_64.tar.gz">Backends
+                (communication library) &amp; DPU runtime</a><br>
+              <a href="http://sdk-releases.upmem.com/2023.1.0/upmem-driver-2023.1.0.tar.gz">Driver (kernel
+                module)</a><br>
+              <a href="https://github.com/upmem/llvm-project/tree/2023.1.0">LLVM (compiler/debugger)</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Documentation tarball</div>
+            <div class="col-md-9"><a href="http://sdk-releases.upmem.com/2023.1.0/upmem-doc-2023.1.0-Linux-x86_64.tar.gz">upmem-doc-2023.1.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">
+              <p><a class="btn btn-primary btn-sm" href="https://sdk.upmem.com/2023.1.0/" role="button">Online SDK documentation</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mb-2">
+        <div class="col-md-2 themed-grid-col">version <strong>2021.4.0</strong></div>
+        <div class="col-md-10 themed-grid-col">
+
+          <div class="row">
+            <div class="col-md-3">Debian 10 (Buster) - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2021.4.0/debian_10/upmem-2021.4.0-Linux-x86_64.tar.gz">upmem-2021.4.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2021.4.0/debian_10/upmem_2021.4.0_amd64.deb">upmem_2021.4.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2021.4.0/debian_10/upmem-driver-dkms_2021.4.0_amd64.deb">upmem-driver-dkms_2021.4.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Ubuntu 18.04 LTS - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2021.4.0/ubuntu_18.04/upmem-2021.4.0-Linux-x86_64.tar.gz">upmem-2021.4.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2021.4.0/ubuntu_18.04/upmem_2021.4.0_amd64.deb">upmem_2021.4.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2021.4.0/ubuntu_18.04/upmem-driver-dkms_2021.4.0_amd64.deb">upmem-driver-dkms_2021.4.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Ubuntu 20.04 LTS - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2021.4.0/ubuntu_20.04/upmem-2021.4.0-Linux-x86_64.tar.gz">upmem-2021.4.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2021.4.0/ubuntu_20.04/upmem_2021.4.0_amd64.deb">upmem_2021.4.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2021.4.0/ubuntu_20.04/upmem-driver-dkms_2021.4.0_amd64.deb">upmem-driver-dkms_2021.4.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Centos 7 - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2021.4.0/centos_7/upmem-2021.4.0-Linux-x86_64.tar.gz">upmem-2021.4.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2021.4.0/centos_7/upmem-2021.4.0-1.x86_64.rpm">upmem-2021.4.0-1.x86_64.rpm</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2021.4.0/centos_7/upmem-driver-dkms-2021.4.0-1dkms.noarch.rpm">upmem-driver-dkms-2021.4.0-1dkms.noarch.rpm</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">&nbsp;</div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Firmware packages</div>
+            <div class="col-md-9"><a href="http://sdk-releases.upmem.com/2021.4.0/upmem-bios-2021.4.0-Linux-x86_64.tar.gz">BIOS
+                firmware</a><br>
+              <a href="http://sdk-releases.upmem.com/2021.4.0/upmem-mcu-firmware-2021.4.0-Linux-x86_64.tar.gz">MCU
+                firmware</a><br>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Sources</div>
+            <div class="col-md-9"><a href="http://sdk-releases.upmem.com/2021.4.0/upmem-src-2021.4.0-Linux-x86_64.tar.gz">Backends
+                (communication library) &amp; DPU runtime</a><br>
+              <a href="http://sdk-releases.upmem.com/2021.4.0/upmem-driver-2021.4.0.tar.gz">Driver (kernel
+                module)</a><br>
+              <a href="https://github.com/upmem/llvm-project/tree/2021.4.0">LLVM (compiler/debugger)</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Documentation tarball</div>
+            <div class="col-md-9"><a href="http://sdk-releases.upmem.com/2021.4.0/upmem-doc-2021.4.0-Linux-x86_64.tar.gz">upmem-doc-2021.4.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">
+              <p><a class="btn btn-primary btn-sm" href="https://sdk.upmem.com/2021.4.0/" role="button">Online SDK documentation</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mb-2">
+        <div class="col-md-2 themed-grid-col">version <strong>2021.3.0</strong></div>
+        <div class="col-md-10 themed-grid-col">
+
+          <div class="row">
+            <div class="col-md-3">Debian 10 (Buster) - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2021.3.0/debian_10/upmem-2021.3.0-Linux-x86_64.tar.gz">upmem-2021.3.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2021.3.0/debian_10/upmem_2021.3.0_amd64.deb">upmem_2021.3.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2021.3.0/debian_10/upmem-driver-dkms_2021.3.0_amd64.deb">upmem-driver-dkms_2021.3.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Ubuntu 18.04 LTS - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2021.3.0/ubuntu_18.04/upmem-2021.3.0-Linux-x86_64.tar.gz">upmem-2021.3.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2021.3.0/ubuntu_18.04/upmem_2021.3.0_amd64.deb">upmem_2021.3.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2021.3.0/ubuntu_18.04/upmem-driver-dkms_2021.3.0_amd64.deb">upmem-driver-dkms_2021.3.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Ubuntu 20.04 LTS - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2021.3.0/ubuntu_20.04/upmem-2021.3.0-Linux-x86_64.tar.gz">upmem-2021.3.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2021.3.0/ubuntu_20.04/upmem_2021.3.0_amd64.deb">upmem_2021.3.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2021.3.0/ubuntu_20.04/upmem-driver-dkms_2021.3.0_amd64.deb">upmem-driver-dkms_2021.3.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Centos 7 - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2021.3.0/centos_7/upmem-2021.3.0-Linux-x86_64.tar.gz">upmem-2021.3.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2021.3.0/centos_7/upmem-2021.3.0-1.x86_64.rpm">upmem-2021.3.0-1.x86_64.rpm</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2021.3.0/centos_7/upmem-driver-dkms-2021.3.0-1dkms.noarch.rpm">upmem-driver-dkms-2021.3.0-1dkms.noarch.rpm</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Centos 8 - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2021.3.0/centos_8/upmem-2021.3.0-Linux-x86_64.tar.gz">upmem-2021.3.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2021.3.0/centos_8/upmem-2021.3.0-1.x86_64.rpm">upmem-2021.3.0-1.x86_64.rpm</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2021.3.0/centos_8/upmem-driver-dkms-2021.3.0-1dkms.noarch.rpm">upmem-driver-dkms-2021.3.0-1dkms.noarch.rpm</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">&nbsp;</div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Firmware packages</div>
+            <div class="col-md-9"><a href="http://sdk-releases.upmem.com/2021.3.0/upmem-bios-2021.3.0-Linux-x86_64.tar.gz">BIOS
+                firmware</a><br>
+              <a href="http://sdk-releases.upmem.com/2021.3.0/upmem-mcu-firmware-2021.3.0-Linux-x86_64.tar.gz">MCU
+                firmware</a><br>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Sources</div>
+            <div class="col-md-9"><a href="http://sdk-releases.upmem.com/2021.3.0/upmem-src-2021.3.0-Linux-x86_64.tar.gz">Backends
+                (communication library) &amp; DPU runtime</a><br>
+              <a href="http://sdk-releases.upmem.com/2021.3.0/upmem-driver-2021.3.0.tar.gz">Driver (kernel
+                module)</a><br>
+              <a href="https://github.com/upmem/llvm-project/tree/2021.3.0">LLVM (compiler/debugger)</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Documentation tarball</div>
+            <div class="col-md-9"><a href="http://sdk-releases.upmem.com/2021.3.0/upmem-doc-2021.3.0-Linux-x86_64.tar.gz">upmem-doc-2021.3.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">
+              <p><a class="btn btn-primary btn-sm" href="https://sdk.upmem.com/2021.3.0/" role="button">Online SDK documentation</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mb-2">
+        <div class="col-md-2 themed-grid-col">version <strong>2021.2.0</strong></div>
+        <div class="col-md-10 themed-grid-col">
+
+          <div class="row">
+            <div class="col-md-3">Debian 10 (Buster) - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2021.2.0/debian_10/upmem-2021.2.0-Linux-x86_64.tar.gz">upmem-2021.2.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2021.2.0/debian_10/upmem_2021.2.0_amd64.deb">upmem_2021.2.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2021.2.0/debian_10/upmem-driver-dkms_2021.2.0_amd64.deb">upmem-driver-dkms_2021.2.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Ubuntu 18.04 LTS - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2021.2.0/ubuntu_18.04/upmem-2021.2.0-Linux-x86_64.tar.gz">upmem-2021.2.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2021.2.0/ubuntu_18.04/upmem_2021.2.0_amd64.deb">upmem_2021.2.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2021.2.0/ubuntu_18.04/upmem-driver-dkms_2021.2.0_amd64.deb">upmem-driver-dkms_2021.2.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Ubuntu 20.04 LTS - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2021.2.0/ubuntu_20.04/upmem-2021.2.0-Linux-x86_64.tar.gz">upmem-2021.2.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2021.2.0/ubuntu_20.04/upmem_2021.2.0_amd64.deb">upmem_2021.2.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2021.2.0/ubuntu_20.04/upmem-driver-dkms_2021.2.0_amd64.deb">upmem-driver-dkms_2021.2.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Centos 7 - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2021.2.0/centos_7/upmem-2021.2.0-Linux-x86_64.tar.gz">upmem-2021.2.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2021.2.0/centos_7/upmem-2021.2.0-1.x86_64.rpm">upmem-2021.2.0-1.x86_64.rpm</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2021.2.0/centos_7/upmem-driver-dkms-2021.2.0-1dkms.noarch.rpm">upmem-driver-dkms-2021.2.0-1dkms.noarch.rpm</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Centos 8 - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2021.2.0/centos_8/upmem-2021.2.0-Linux-x86_64.tar.gz">upmem-2021.2.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2021.2.0/centos_8/upmem-2021.2.0-1.x86_64.rpm">upmem-2021.2.0-1.x86_64.rpm</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2021.2.0/centos_8/upmem-driver-dkms-2021.2.0-1dkms.noarch.rpm">upmem-driver-dkms-2021.2.0-1dkms.noarch.rpm</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">&nbsp;</div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Firmware packages</div>
+            <div class="col-md-9"><a href="http://sdk-releases.upmem.com/2021.2.0/upmem-bios-2021.2.0-Linux-x86_64.tar.gz">BIOS
+                firmware</a><br>
+              <a href="http://sdk-releases.upmem.com/2021.2.0/upmem-mcu-firmware-2021.2.0-Linux-x86_64.tar.gz">MCU
+                firmware</a><br>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Sources</div>
+            <div class="col-md-9"><a href="http://sdk-releases.upmem.com/2021.2.0/upmem-src-2021.2.0-Linux-x86_64.tar.gz">Backends
+                (communication library) &amp; DPU runtime</a><br>
+              <a href="http://sdk-releases.upmem.com/2021.2.0/upmem-driver-2021.2.0.tar.gz">Driver (kernel
+                module)</a><br>
+              <a href="https://github.com/upmem/llvm-project/tree/2021.2.0">LLVM (compiler/debugger)</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Documentation tarball</div>
+            <div class="col-md-9"><a href="http://sdk-releases.upmem.com/2021.2.0/upmem-doc-2021.2.0-Linux-x86_64.tar.gz">upmem-doc-2021.2.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">
+              <p><a class="btn btn-primary btn-sm" href="https://sdk.upmem.com/2021.2.0/" role="button">Online SDK documentation</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mb-2">
+        <div class="col-md-2 themed-grid-col">version <strong>2021.1.3</strong></div>
+        <div class="col-md-10 themed-grid-col">
+
+          <div class="row">
+            <div class="col-md-3">Debian 10 (Buster) - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2021.1.3/debian_10/upmem-2021.1.3-Linux-x86_64.tar.gz">upmem-2021.1.3-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2021.1.3/debian_10/upmem_2021.1.3_amd64.deb">upmem_2021.1.3_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2021.1.3/debian_10/upmem-driver-dkms_2021.1.3_amd64.deb">upmem-driver-dkms_2021.1.3_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Ubuntu 18.04 LTS - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2021.1.3/ubuntu_18.04/upmem-2021.1.3-Linux-x86_64.tar.gz">upmem-2021.1.3-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2021.1.3/ubuntu_18.04/upmem_2021.1.3_amd64.deb">upmem_2021.1.3_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2021.1.3/ubuntu_18.04/upmem-driver-dkms_2021.1.3_amd64.deb">upmem-driver-dkms_2021.1.3_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Ubuntu 20.04 LTS - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2021.1.3/ubuntu_20.04/upmem-2021.1.3-Linux-x86_64.tar.gz">upmem-2021.1.3-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2021.1.3/ubuntu_20.04/upmem_2021.1.3_amd64.deb">upmem_2021.1.3_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2021.1.3/ubuntu_20.04/upmem-driver-dkms_2021.1.3_amd64.deb">upmem-driver-dkms_2021.1.3_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Centos 7 - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2021.1.3/centos_7/upmem-2021.1.3-Linux-x86_64.tar.gz">upmem-2021.1.3-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2021.1.3/centos_7/upmem-2021.1.3-1.x86_64.rpm">upmem-2021.1.3-1.x86_64.rpm</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2021.1.3/centos_7/upmem-driver-dkms-2021.1.3-1dkms.noarch.rpm">upmem-driver-dkms-2021.1.3-1dkms.noarch.rpm</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Centos 8 - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2021.1.3/centos_8/upmem-2021.1.3-Linux-x86_64.tar.gz">upmem-2021.1.3-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2021.1.3/centos_8/upmem-2021.1.3-1.x86_64.rpm">upmem-2021.1.3-1.x86_64.rpm</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2021.1.3/centos_8/upmem-driver-dkms-2021.1.3-1dkms.noarch.rpm">upmem-driver-dkms-2021.1.3-1dkms.noarch.rpm</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">&nbsp;</div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Firmware packages</div>
+            <div class="col-md-9"><a href="http://sdk-releases.upmem.com/2021.1.3/upmem-bios-2021.1.3-Linux-x86_64.tar.gz">BIOS
+                firmware</a><br>
+              <a href="http://sdk-releases.upmem.com/2021.1.3/upmem-mcu-firmware-2021.1.3-Linux-x86_64.tar.gz">MCU
+                firmware</a><br>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Sources</div>
+            <div class="col-md-9"><a href="http://sdk-releases.upmem.com/2021.1.3/upmem-src-2021.1.3-Linux-x86_64.tar.gz">Backends
+                (communication library) &amp; DPU runtime</a><br>
+              <a href="http://sdk-releases.upmem.com/2021.1.3/upmem-driver-2021.1.3.tar.gz">Driver (kernel
+                module)</a><br>
+              <a href="https://github.com/upmem/llvm-project/tree/2021.1.3">LLVM (compiler/debugger)</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Documentation tarball</div>
+            <div class="col-md-9"><a href="http://sdk-releases.upmem.com/2021.1.3/upmem-doc-2021.1.3-Linux-x86_64.tar.gz">upmem-doc-2021.1.3-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">
+              <p><a class="btn btn-primary btn-sm" href="https://sdk.upmem.com/2021.1.3/" role="button">Online SDK documentation</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mb-2">
+        <div class="col-md-2 themed-grid-col">version <strong>2021.1.2</strong></div>
+        <div class="col-md-10 themed-grid-col">
+
+          <div class="row">
+            <div class="col-md-3">Debian 10 (Buster) - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2021.1.2/debian_10/upmem-2021.1.2-Linux-x86_64.tar.gz">upmem-2021.1.2-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2021.1.2/debian_10/upmem_2021.1.2_amd64.deb">upmem_2021.1.2_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2021.1.2/debian_10/upmem-driver-dkms_2021.1.2_amd64.deb">upmem-driver-dkms_2021.1.2_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Ubuntu 18.04 LTS - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2021.1.2/ubuntu_18.04/upmem-2021.1.2-Linux-x86_64.tar.gz">upmem-2021.1.2-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2021.1.2/ubuntu_18.04/upmem_2021.1.2_amd64.deb">upmem_2021.1.2_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2021.1.2/ubuntu_18.04/upmem-driver-dkms_2021.1.2_amd64.deb">upmem-driver-dkms_2021.1.2_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Ubuntu 20.04 LTS - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2021.1.2/ubuntu_20.04/upmem-2021.1.2-Linux-x86_64.tar.gz">upmem-2021.1.2-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2021.1.2/ubuntu_20.04/upmem_2021.1.2_amd64.deb">upmem_2021.1.2_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2021.1.2/ubuntu_20.04/upmem-driver-dkms_2021.1.2_amd64.deb">upmem-driver-dkms_2021.1.2_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Centos 7 - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2021.1.2/centos_7/upmem-2021.1.2-Linux-x86_64.tar.gz">upmem-2021.1.2-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2021.1.2/centos_7/upmem-2021.1.2-1.x86_64.rpm">upmem-2021.1.2-1.x86_64.rpm</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2021.1.2/centos_7/upmem-driver-dkms-2021.1.2-1dkms.noarch.rpm">upmem-driver-dkms-2021.1.2-1dkms.noarch.rpm</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Centos 8 - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2021.1.2/centos_8/upmem-2021.1.2-Linux-x86_64.tar.gz">upmem-2021.1.2-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2021.1.2/centos_8/upmem-2021.1.2-1.x86_64.rpm">upmem-2021.1.2-1.x86_64.rpm</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2021.1.2/centos_8/upmem-driver-dkms-2021.1.2-1dkms.noarch.rpm">upmem-driver-dkms-2021.1.2-1dkms.noarch.rpm</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">&nbsp;</div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Firmware packages</div>
+            <div class="col-md-9"><a href="http://sdk-releases.upmem.com/2021.1.2/upmem-bios-2021.1.2-Linux-x86_64.tar.gz">BIOS
+                firmware</a><br>
+              <a href="http://sdk-releases.upmem.com/2021.1.2/upmem-mcu-firmware-2021.1.2-Linux-x86_64.tar.gz">MCU
+                firmware</a><br>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Sources</div>
+            <div class="col-md-9"><a href="http://sdk-releases.upmem.com/2021.1.2/upmem-src-2021.1.2-Linux-x86_64.tar.gz">Backends
+                (communication library) &amp; DPU runtime</a><br>
+              <a href="http://sdk-releases.upmem.com/2021.1.2/upmem-driver-2021.1.2.tar.gz">Driver (kernel
+                module)</a><br>
+              <a href="https://github.com/upmem/llvm-project/tree/2021.1.2">LLVM (compiler/debugger)</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Documentation tarball</div>
+            <div class="col-md-9"><a href="http://sdk-releases.upmem.com/2021.1.2/upmem-doc-2021.1.2-Linux-x86_64.tar.gz">upmem-doc-2021.1.2-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">
+              <p><a class="btn btn-primary btn-sm" href="https://sdk.upmem.com/2021.1.2/" role="button">Online SDK documentation</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mb-2">
+        <div class="col-md-2 themed-grid-col">version <strong>2021.1.1</strong></div>
+        <div class="col-md-10 themed-grid-col">
+
+          <div class="row">
+            <div class="col-md-3">Debian 10 (Buster) - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2021.1.1/debian_10/upmem-2021.1.1-Linux-x86_64.tar.gz">upmem-2021.1.1-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2021.1.1/debian_10/upmem_2021.1.1_amd64.deb">upmem_2021.1.1_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2021.1.1/debian_10/upmem-driver-dkms_2021.1.1_amd64.deb">upmem-driver-dkms_2021.1.1_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Ubuntu 18.04 LTS - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2021.1.1/ubuntu_18.04/upmem-2021.1.1-Linux-x86_64.tar.gz">upmem-2021.1.1-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2021.1.1/ubuntu_18.04/upmem_2021.1.1_amd64.deb">upmem_2021.1.1_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2021.1.1/ubuntu_18.04/upmem-driver-dkms_2021.1.1_amd64.deb">upmem-driver-dkms_2021.1.1_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Ubuntu 20.04 LTS - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2021.1.1/ubuntu_20.04/upmem-2021.1.1-Linux-x86_64.tar.gz">upmem-2021.1.1-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2021.1.1/ubuntu_20.04/upmem_2021.1.1_amd64.deb">upmem_2021.1.1_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2021.1.1/ubuntu_20.04/upmem-driver-dkms_2021.1.1_amd64.deb">upmem-driver-dkms_2021.1.1_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Centos 7 - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2021.1.1/centos_7/upmem-2021.1.1-Linux-x86_64.tar.gz">upmem-2021.1.1-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2021.1.1/centos_7/upmem-2021.1.1-1.x86_64.rpm">upmem-2021.1.1-1.x86_64.rpm</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2021.1.1/centos_7/upmem-driver-dkms-2021.1.1-1dkms.noarch.rpm">upmem-driver-dkms-2021.1.1-1dkms.noarch.rpm</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Centos 8 - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2021.1.1/centos_8/upmem-2021.1.1-Linux-x86_64.tar.gz">upmem-2021.1.1-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2021.1.1/centos_8/upmem-2021.1.1-1.x86_64.rpm">upmem-2021.1.1-1.x86_64.rpm</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2021.1.1/centos_8/upmem-driver-dkms-2021.1.1-1dkms.noarch.rpm">upmem-driver-dkms-2021.1.1-1dkms.noarch.rpm</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">&nbsp;</div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Firmware packages</div>
+            <div class="col-md-9"><a href="http://sdk-releases.upmem.com/2021.1.1/upmem-bios-2021.1.1-Linux-x86_64.tar.gz">BIOS
+                firmware</a><br>
+              <a href="http://sdk-releases.upmem.com/2021.1.1/upmem-mcu-firmware-2021.1.1-Linux-x86_64.tar.gz">MCU
+                firmware</a><br>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Sources</div>
+            <div class="col-md-9"><a href="http://sdk-releases.upmem.com/2021.1.1/upmem-src-2021.1.1-Linux-x86_64.tar.gz">Backends
+                (communication library) &amp; DPU runtime</a><br>
+              <a href="http://sdk-releases.upmem.com/2021.1.1/upmem-driver-2021.1.1.tar.gz">Driver (kernel
+                module)</a><br>
+              <a href="https://github.com/upmem/llvm-project/tree/2021.1.1">LLVM (compiler/debugger)</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Documentation tarball</div>
+            <div class="col-md-9"><a href="http://sdk-releases.upmem.com/2021.1.1/upmem-doc-2021.1.1-Linux-x86_64.tar.gz">upmem-doc-2021.1.1-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">
+              <p><a class="btn btn-primary btn-sm" href="https://sdk.upmem.com/2021.1.1/" role="button">Online SDK documentation</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mb-2">
+        <div class="col-md-2 themed-grid-col">version <strong>2021.1.0</strong></div>
+        <div class="col-md-10 themed-grid-col">
+
+          <div class="row">
+            <div class="col-md-3">Debian 10 (Buster) - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2021.1.0/debian_10/upmem-2021.1.0-Linux-x86_64.tar.gz">upmem-2021.1.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2021.1.0/debian_10/upmem_2021.1.0_amd64.deb">upmem_2021.1.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2021.1.0/debian_10/upmem-driver-dkms_2021.1.0_amd64.deb">upmem-driver-dkms_2021.1.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Ubuntu 18.04 LTS - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2021.1.0/ubuntu_18.04/upmem-2021.1.0-Linux-x86_64.tar.gz">upmem-2021.1.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2021.1.0/ubuntu_18.04/upmem_2021.1.0_amd64.deb">upmem_2021.1.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2021.1.0/ubuntu_18.04/upmem-driver-dkms_2021.1.0_amd64.deb">upmem-driver-dkms_2021.1.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Ubuntu 20.04 LTS - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2021.1.0/ubuntu_20.04/upmem-2021.1.0-Linux-x86_64.tar.gz">upmem-2021.1.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2021.1.0/ubuntu_20.04/upmem_2021.1.0_amd64.deb">upmem_2021.1.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2021.1.0/ubuntu_20.04/upmem-driver-dkms_2021.1.0_amd64.deb">upmem-driver-dkms_2021.1.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Centos 7 - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2021.1.0/centos_7/upmem-2021.1.0-Linux-x86_64.tar.gz">upmem-2021.1.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2021.1.0/centos_7/upmem-2021.1.0-1.x86_64.rpm">upmem-2021.1.0-1.x86_64.rpm</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2021.1.0/centos_7/upmem-driver-dkms-2021.1.0-1dkms.noarch.rpm">upmem-driver-dkms-2021.1.0-1dkms.noarch.rpm</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Centos 8 - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2021.1.0/centos_8/upmem-2021.1.0-Linux-x86_64.tar.gz">upmem-2021.1.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2021.1.0/centos_8/upmem-2021.1.0-1.x86_64.rpm">upmem-2021.1.0-1.x86_64.rpm</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2021.1.0/centos_8/upmem-driver-dkms-2021.1.0-1dkms.noarch.rpm">upmem-driver-dkms-2021.1.0-1dkms.noarch.rpm</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">&nbsp;</div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Firmware packages</div>
+            <div class="col-md-9"><a href="http://sdk-releases.upmem.com/2021.1.0/upmem-bios-2021.1.0-Linux-x86_64.tar.gz">BIOS
+                firmware</a><br>
+              <a href="http://sdk-releases.upmem.com/2021.1.0/upmem-mcu-firmware-2021.1.0-Linux-x86_64.tar.gz">MCU
+                firmware</a><br>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Sources</div>
+            <div class="col-md-9"><a href="http://sdk-releases.upmem.com/2021.1.0/upmem-src-2021.1.0-Linux-x86_64.tar.gz">Backends
+                (communication library) &amp; DPU runtime</a><br>
+              <a href="http://sdk-releases.upmem.com/2021.1.0/upmem-driver-2021.1.0.tar.gz">Driver (kernel
+                module)</a><br>
+              <a href="https://github.com/upmem/llvm-project/tree/2021.1.0">LLVM (compiler/debugger)</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Documentation tarball</div>
+            <div class="col-md-9"><a href="http://sdk-releases.upmem.com/2021.1.0/upmem-doc-2021.1.0-Linux-x86_64.tar.gz">upmem-doc-2021.1.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">
+              <p><a class="btn btn-primary btn-sm" href="https://sdk.upmem.com/2021.1.0/" role="button">Online SDK documentation</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mb-2">
+        <div class="col-md-2 themed-grid-col">version <strong>2020.5.1</strong></div>
+        <div class="col-md-10 themed-grid-col">
+
+          <div class="row">
+            <div class="col-md-3">Debian 10 (Buster) - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2020.5.1/debian_10/upmem-2020.5.1-Linux-x86_64.tar.gz">upmem-2020.5.1-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2020.5.1/debian_10/upmem_2020.5.1_amd64.deb">upmem_2020.5.1_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2020.5.1/debian_10/upmem-driver-dkms_2020.5.1_amd64.deb">upmem-driver-dkms_2020.5.1_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Ubuntu 18.04 LTS - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2020.5.1/ubuntu_18.04/upmem-2020.5.1-Linux-x86_64.tar.gz">upmem-2020.5.1-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2020.5.1/ubuntu_18.04/upmem_2020.5.1_amd64.deb">upmem_2020.5.1_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2020.5.1/ubuntu_18.04/upmem-driver-dkms_2020.5.1_amd64.deb">upmem-driver-dkms_2020.5.1_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Ubuntu 20.04 LTS - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2020.5.1/ubuntu_20.04/upmem-2020.5.1-Linux-x86_64.tar.gz">upmem-2020.5.1-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2020.5.1/ubuntu_20.04/upmem_2020.5.1_amd64.deb">upmem_2020.5.1_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2020.5.1/ubuntu_20.04/upmem-driver-dkms_2020.5.1_amd64.deb">upmem-driver-dkms_2020.5.1_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Centos 7 - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2020.5.1/centos_7/upmem-2020.5.1-Linux-x86_64.tar.gz">upmem-2020.5.1-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2020.5.1/centos_7/upmem-2020.5.1-1.x86_64.rpm">upmem-2020.5.1-1.x86_64.rpm</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2020.5.1/centos_7/upmem-driver-dkms-2020.5.1-1dkms.noarch.rpm">upmem-driver-dkms-2020.5.1-1dkms.noarch.rpm</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Centos 8 - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2020.5.1/centos_8/upmem-2020.5.1-Linux-x86_64.tar.gz">upmem-2020.5.1-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2020.5.1/centos_8/upmem-2020.5.1-1.x86_64.rpm">upmem-2020.5.1-1.x86_64.rpm</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2020.5.1/centos_8/upmem-driver-dkms-2020.5.1-1dkms.noarch.rpm">upmem-driver-dkms-2020.5.1-1dkms.noarch.rpm</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">&nbsp;</div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Firmware packages</div>
+            <div class="col-md-9"><a href="http://sdk-releases.upmem.com/2020.5.1/upmem-bios-2020.5.1-Linux-x86_64.tar.gz">BIOS
+                firmware</a><br>
+              <a href="http://sdk-releases.upmem.com/2020.5.1/upmem-mcu-firmware-2020.5.1-Linux-x86_64.tar.gz">MCU
+                firmware</a><br>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Sources</div>
+            <div class="col-md-9"><a href="http://sdk-releases.upmem.com/2020.5.1/upmem-src-2020.5.1-Linux-x86_64.tar.gz">Backends
+                (communication library) &amp; DPU runtime</a><br>
+              <a href="http://sdk-releases.upmem.com/2020.5.1/upmem-driver-2020.5.1.tar.gz">Driver (kernel
+                module)</a><br>
+              <a href="https://github.com/upmem/llvm-project/tree/2020.5.1">LLVM (compiler/debugger)</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Documentation tarball</div>
+            <div class="col-md-9"><a href="http://sdk-releases.upmem.com/2020.5.1/upmem-doc-2020.5.1-Linux-x86_64.tar.gz">upmem-doc-2020.5.1-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">
+              <p><a class="btn btn-primary btn-sm" href="https://sdk.upmem.com/2020.5.1/" role="button">Online SDK documentation</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mb-2">
+        <div class="col-md-2 themed-grid-col">version <strong>2020.5.0</strong></div>
+        <div class="col-md-10 themed-grid-col">
+
+          <div class="row">
+            <div class="col-md-3">Debian 10 (Buster) - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2020.5.0/debian_10/upmem-2020.5.0-Linux-x86_64.tar.gz">upmem-2020.5.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2020.5.0/debian_10/upmem_2020.5.0_amd64.deb">upmem_2020.5.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2020.5.0/debian_10/upmem-driver-dkms_2020.5.0_amd64.deb">upmem-driver-dkms_2020.5.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Ubuntu 18.04 LTS - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2020.5.0/ubuntu_18.04/upmem-2020.5.0-Linux-x86_64.tar.gz">upmem-2020.5.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2020.5.0/ubuntu_18.04/upmem_2020.5.0_amd64.deb">upmem_2020.5.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2020.5.0/ubuntu_18.04/upmem-driver-dkms_2020.5.0_amd64.deb">upmem-driver-dkms_2020.5.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Ubuntu 20.04 LTS - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2020.5.0/ubuntu_20.04/upmem-2020.5.0-Linux-x86_64.tar.gz">upmem-2020.5.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2020.5.0/ubuntu_20.04/upmem_2020.5.0_amd64.deb">upmem_2020.5.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2020.5.0/ubuntu_20.04/upmem-driver-dkms_2020.5.0_amd64.deb">upmem-driver-dkms_2020.5.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Centos 7 - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2020.5.0/centos_7/upmem-2020.5.0-Linux-x86_64.tar.gz">upmem-2020.5.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2020.5.0/centos_7/upmem-2020.5.0-1.x86_64.rpm">upmem-2020.5.0-1.x86_64.rpm</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2020.5.0/centos_7/upmem-driver-dkms-2020.5.0-1dkms.noarch.rpm">upmem-driver-dkms-2020.5.0-1dkms.noarch.rpm</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Centos 8 - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2020.5.0/centos_8/upmem-2020.5.0-Linux-x86_64.tar.gz">upmem-2020.5.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2020.5.0/centos_8/upmem-2020.5.0-1.x86_64.rpm">upmem-2020.5.0-1.x86_64.rpm</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2020.5.0/centos_8/upmem-driver-dkms-2020.5.0-1dkms.noarch.rpm">upmem-driver-dkms-2020.5.0-1dkms.noarch.rpm</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">&nbsp;</div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Sources</div>
+            <div class="col-md-9"><a href="http://sdk-releases.upmem.com/2020.5.0/upmem-src-2020.5.0-Linux-x86_64.tar.gz">Backends
+                (communication library) &amp; DPU runtime</a><br>
+              <a href="http://sdk-releases.upmem.com/2020.5.0/upmem-driver-2020.5.0.tar.gz">Driver (kernel
+                module)</a><br>
+              <a href="https://github.com/upmem/llvm-project/tree/2020.5.0">LLVM (compiler/debugger)</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Documentation tarball</div>
+            <div class="col-md-9"><a href="http://sdk-releases.upmem.com/2020.5.0/upmem-doc-2020.5.0-Linux-x86_64.tar.gz">upmem-doc-2020.5.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">
+              <p><a class="btn btn-primary btn-sm" href="https://sdk.upmem.com/2020.5.0/" role="button">Online SDK documentation</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mb-2">
+        <div class="col-md-2 themed-grid-col">version <strong>2020.4.0</strong></div>
+        <div class="col-md-10 themed-grid-col">
+
+          <div class="row">
+            <div class="col-md-3">Debian 10 (Buster) - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2020.4.0/debian_10/upmem-2020.4.0-Linux-x86_64.tar.gz">upmem-2020.4.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2020.4.0/debian_10/upmem_2020.4.0_amd64.deb">upmem_2020.4.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2020.4.0/debian_10/upmem-driver-dkms_2020.4.0_amd64.deb">upmem-driver-dkms_2020.4.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Ubuntu 18.04 LTS - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2020.4.0/ubuntu_18.04/upmem-2020.4.0-Linux-x86_64.tar.gz">upmem-2020.4.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2020.4.0/ubuntu_18.04/upmem_2020.4.0_amd64.deb">upmem_2020.4.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2020.4.0/ubuntu_18.04/upmem-driver-dkms_2020.4.0_amd64.deb">upmem-driver-dkms_2020.4.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Ubuntu 20.04 LTS - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2020.4.0/ubuntu_20.04/upmem-2020.4.0-Linux-x86_64.tar.gz">upmem-2020.4.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2020.4.0/ubuntu_20.04/upmem_2020.4.0_amd64.deb">upmem_2020.4.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2020.4.0/ubuntu_20.04/upmem-driver-dkms_2020.4.0_amd64.deb">upmem-driver-dkms_2020.4.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Centos 7 - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2020.4.0/centos_7/upmem-2020.4.0-Linux-x86_64.tar.gz">upmem-2020.4.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2020.4.0/centos_7/upmem-2020.4.0-1.x86_64.rpm">upmem-2020.4.0-1.x86_64.rpm</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2020.4.0/centos_7/upmem-driver-dkms-2020.4.0-1dkms.noarch.rpm">upmem-driver-dkms-2020.4.0-1dkms.noarch.rpm</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Centos 8 - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2020.4.0/centos_8/upmem-2020.4.0-Linux-x86_64.tar.gz">upmem-2020.4.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2020.4.0/centos_8/upmem-2020.4.0-1.x86_64.rpm">upmem-2020.4.0-1.x86_64.rpm</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2020.4.0/centos_8/upmem-driver-dkms-2020.4.0-1dkms.noarch.rpm">upmem-driver-dkms-2020.4.0-1dkms.noarch.rpm</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">&nbsp;</div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Sources</div>
+            <div class="col-md-9"><a href="http://sdk-releases.upmem.com/2020.4.0/upmem-src-2020.4.0-Linux-x86_64.tar.gz">Backends
+                (communication library) &amp; DPU runtime</a><br>
+              <a href="http://sdk-releases.upmem.com/2020.4.0/upmem-driver-2020.4.0.tar.gz">Driver (kernel
+                module)</a><br>
+              <a href="https://github.com/upmem/llvm-project/tree/2020.4.0">LLVM (compiler/debugger)</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Documentation tarball</div>
+            <div class="col-md-9"><a href="http://sdk-releases.upmem.com/2020.4.0/upmem-doc-2020.4.0-Linux-x86_64.tar.gz">upmem-doc-2020.4.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">
+              <p><a class="btn btn-primary btn-sm" href="https://sdk.upmem.com/2020.4.0/" role="button">Online SDK documentation</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mb-2">
+        <div class="col-md-2 themed-grid-col">version <strong>2020.3.0</strong></div>
+        <div class="col-md-10 themed-grid-col">
+
+          <div class="row">
+            <div class="col-md-3">Debian 10 (Buster) - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2020.3.0/debian_10/upmem-2020.3.0-Linux-x86_64.tar.gz">upmem-2020.3.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2020.3.0/debian_10/upmem_2020.3.0_amd64.deb">upmem_2020.3.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2020.3.0/debian_10/upmem-driver-dkms_2020.3.0_amd64.deb">upmem-driver-dkms_2020.3.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Ubuntu 18.04 LTS - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2020.3.0/ubuntu_18.04/upmem-2020.3.0-Linux-x86_64.tar.gz">upmem-2020.3.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2020.3.0/ubuntu_18.04/upmem_2020.3.0_amd64.deb">upmem_2020.3.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2020.3.0/ubuntu_18.04/upmem-driver-dkms_2020.3.0_amd64.deb">upmem-driver-dkms_2020.3.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Ubuntu 20.04 LTS - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2020.3.0/ubuntu_20.04/upmem-2020.3.0-Linux-x86_64.tar.gz">upmem-2020.3.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2020.3.0/ubuntu_20.04/upmem_2020.3.0_amd64.deb">upmem_2020.3.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2020.3.0/ubuntu_20.04/upmem-driver-dkms_2020.3.0_amd64.deb">upmem-driver-dkms_2020.3.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Centos 7 - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2020.3.0/centos_7/upmem-2020.3.0-Linux-x86_64.tar.gz">upmem-2020.3.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2020.3.0/centos_7/upmem-2020.3.0-1.x86_64.rpm">upmem-2020.3.0-1.x86_64.rpm</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2020.3.0/centos_7/upmem-driver-dkms-2020.3.0-1dkms.noarch.rpm">upmem-driver-dkms-2020.3.0-1dkms.noarch.rpm</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Centos 8 - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2020.3.0/centos_8/upmem-2020.3.0-Linux-x86_64.tar.gz">upmem-2020.3.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2020.3.0/centos_8/upmem-2020.3.0-1.x86_64.rpm">upmem-2020.3.0-1.x86_64.rpm</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2020.3.0/centos_8/upmem-driver-dkms-2020.3.0-1dkms.noarch.rpm">upmem-driver-dkms-2020.3.0-1dkms.noarch.rpm</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">&nbsp;</div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Sources</div>
+            <div class="col-md-9"><a href="http://sdk-releases.upmem.com/2020.3.0/upmem-src-2020.3.0-Linux-x86_64.tar.gz">Backends
+                (communication library) &amp; DPU runtime</a><br>
+              <a href="http://sdk-releases.upmem.com/2020.3.0/upmem-driver-2020.3.0.tar.gz">Driver (kernel
+                module)</a><br>
+              <a href="https://github.com/upmem/llvm-project/tree/2020.3.0">LLVM (compiler/debugger)</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Documentation tarball</div>
+            <div class="col-md-9"><a href="http://sdk-releases.upmem.com/2020.3.0/upmem-doc-2020.3.0-Linux-x86_64.tar.gz">upmem-doc-2020.3.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">
+              <p><a class="btn btn-primary btn-sm" href="https://sdk.upmem.com/2020.3.0/" role="button">Online SDK documentation</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mb-2">
+        <div class="col-md-2 themed-grid-col">version <strong>2020.2.1</strong></div>
+        <div class="col-md-10 themed-grid-col">
+
+          <div class="row">
+            <div class="col-md-3">Debian 9 (Stretch) - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2020.2.1/debian_9/upmem-2020.2.1-Linux-x86_64.tar.gz">upmem-2020.2.1-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2020.2.1/debian_9/upmem_2020.2.1_amd64.deb">upmem_2020.2.1_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Debian 10 (Buster) - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2020.2.1/debian_10/upmem-2020.2.1-Linux-x86_64.tar.gz">upmem-2020.2.1-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2020.2.1/debian_10/upmem_2020.2.1_amd64.deb">upmem_2020.2.1_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Ubuntu 18.04 LTS - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2020.2.1/ubuntu_18.04/upmem-2020.2.1-Linux-x86_64.tar.gz">upmem-2020.2.1-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2020.2.1/ubuntu_18.04/upmem_2020.2.1_amd64.deb">upmem_2020.2.1_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2020.2.1/ubuntu_18.04/upmem-driver-dkms_2020.2.1_amd64.deb">upmem-driver-dkms_2020.2.1_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Centos 7 - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2020.2.1/centos_7/upmem-2020.2.1-Linux-x86_64.tar.gz">upmem-2020.2.1-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2020.2.1/centos_7/upmem-2020.2.1-1.x86_64.rpm">upmem-2020.2.1-1.x86_64.rpm</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2020.2.1/centos_7/upmem-driver-dkms-2020.2.1-1dkms.noarch.rpm">upmem-driver-dkms-2020.2.1-1dkms.noarch.rpm</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Centos 8 - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2020.2.1/centos_8/upmem-2020.2.1-Linux-x86_64.tar.gz">upmem-2020.2.1-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2020.2.1/centos_8/upmem-2020.2.1-1.x86_64.rpm">upmem-2020.2.1-1.x86_64.rpm</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">&nbsp;</div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Sources</div>
+            <div class="col-md-9"><a href="http://sdk-releases.upmem.com/2020.2.1/upmem-src-2020.2.1-Linux-x86_64.tar.gz">Backends
+                (communication library) &amp; DPU runtime</a><br>
+              <a href="http://sdk-releases.upmem.com/2020.2.1/upmem-driver-2020.2.1.tar.gz">Driver (kernel
+                module)</a><br>
+              <a href="https://github.com/upmem/llvm-project/tree/2020.2.1">LLVM (compiler/debugger)</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Documentation tarball</div>
+            <div class="col-md-9"><a href="http://sdk-releases.upmem.com/2020.2.1/upmem-doc-2020.2.1-Linux-x86_64.tar.gz">upmem-doc-2020.2.1-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">
+              <p><a class="btn btn-primary btn-sm" href="https://sdk.upmem.com/2020.2.1/" role="button">Online SDK documentation</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mb-2">
+        <div class="col-md-2 themed-grid-col">version <strong>2020.2.0</strong></div>
+        <div class="col-md-10 themed-grid-col">
+
+          <div class="row">
+            <div class="col-md-3">Debian 9 (Stretch) - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2020.2.0/debian_9/upmem-2020.2.0-Linux-x86_64.tar.gz">upmem-2020.2.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2020.2.0/debian_9/upmem_2020.2.0_amd64.deb">upmem_2020.2.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Debian 10 (Buster) - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2020.2.0/debian_10/upmem-2020.2.0-Linux-x86_64.tar.gz">upmem-2020.2.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2020.2.0/debian_10/upmem_2020.2.0_amd64.deb">upmem_2020.2.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Ubuntu 18.04 LTS - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2020.2.0/ubuntu_18.04/upmem-2020.2.0-Linux-x86_64.tar.gz">upmem-2020.2.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2020.2.0/ubuntu_18.04/upmem_2020.2.0_amd64.deb">upmem_2020.2.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2020.2.0/ubuntu_18.04/upmem-driver-dkms_2020.2.0_amd64.deb">upmem-driver-dkms_2020.2.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Centos 7 - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2020.2.0/centos_7/upmem-2020.2.0-Linux-x86_64.tar.gz">upmem-2020.2.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2020.2.0/centos_7/upmem-2020.2.0-1.x86_64.rpm">upmem-2020.2.0-1.x86_64.rpm</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2020.2.0/centos_7/upmem-driver-dkms-2020.2.0-1dkms.noarch.rpm">upmem-driver-dkms-2020.2.0-1dkms.noarch.rpm</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Centos 8 - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2020.2.0/centos_8/upmem-2020.2.0-Linux-x86_64.tar.gz">upmem-2020.2.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2020.2.0/centos_8/upmem-2020.2.0-1.x86_64.rpm">upmem-2020.2.0-1.x86_64.rpm</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">&nbsp;</div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Sources</div>
+            <div class="col-md-9"><a href="http://sdk-releases.upmem.com/2020.2.0/upmem-src-2020.2.0-Linux-x86_64.tar.gz">Backends
+                (communication library) &amp; DPU runtime</a><br>
+              <a href="http://sdk-releases.upmem.com/2020.2.0/upmem-driver-2020.2.0.tar.gz">Driver (kernel
+                module)</a><br>
+              <a href="https://github.com/upmem/llvm-project/tree/2020.2.0">LLVM (compiler/debugger)</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Documentation tarball</div>
+            <div class="col-md-9"><a href="http://sdk-releases.upmem.com/2020.2.0/upmem-doc-2020.2.0-Linux-x86_64.tar.gz">upmem-doc-2020.2.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">
+              <p><a class="btn btn-primary btn-sm" href="https://sdk.upmem.com/2020.2.0/" role="button">Online SDK documentation</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mb-2">
+        <div class="col-md-2 themed-grid-col">version <strong>2020.1.0</strong></div>
+        <div class="col-md-10 themed-grid-col">
+
+          <div class="row">
+            <div class="col-md-3">Debian 9 (Stretch) - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2020.1.0/debian_9/upmem-2020.1.0-Linux-x86_64.tar.gz">upmem-2020.1.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2020.1.0/debian_9/upmem_2020.1.0_amd64.deb">upmem_2020.1.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Debian 10 (Buster) - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2020.1.0/debian_10/upmem-2020.1.0-Linux-x86_64.tar.gz">upmem-2020.1.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2020.1.0/debian_10/upmem_2020.1.0_amd64.deb">upmem_2020.1.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Ubuntu 18.04 LTS - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2020.1.0/ubuntu_18.04/upmem-2020.1.0-Linux-x86_64.tar.gz">upmem-2020.1.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2020.1.0/ubuntu_18.04/upmem_2020.1.0_amd64.deb">upmem_2020.1.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2020.1.0/ubuntu_18.04/upmem-driver-dkms_2020.1.0_amd64.deb">upmem-driver-dkms_2020.1.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Centos 7 - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2020.1.0/centos_7/upmem-2020.1.0-Linux-x86_64.tar.gz">upmem-2020.1.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2020.1.0/centos_7/upmem-2020.1.0-1.x86_64.rpm">upmem-2020.1.0-1.x86_64.rpm</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">kernel module <a href="http://sdk-releases.upmem.com/2020.1.0/centos_7/upmem-driver-dkms-2020.1.0-1dkms.noarch.rpm">upmem-driver-dkms-2020.1.0-1dkms.noarch.rpm</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Centos 8 - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2020.1.0/centos_8/upmem-2020.1.0-Linux-x86_64.tar.gz">upmem-2020.1.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2020.1.0/centos_8/upmem-2020.1.0-1.x86_64.rpm">upmem-2020.1.0-1.x86_64.rpm</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">&nbsp;</div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Sources</div>
+            <div class="col-md-9"><a href="http://sdk-releases.upmem.com/2020.1.0/upmem-src-2020.1.0-Linux-x86_64.tar.gz">Backends
+                (communication library) &amp; DPU runtime</a><br>
+              <a href="http://sdk-releases.upmem.com/2020.1.0/upmem-driver-2020.1.0.tar.gz">Driver (kernel
+                module)</a><br>
+              <a href="https://github.com/upmem/llvm-project/tree/2020.1.0">LLVM (compiler/debugger)</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Documentation tarball</div>
+            <div class="col-md-9"><a href="http://sdk-releases.upmem.com/2020.1.0/upmem-doc-2020.1.0-Linux-x86_64.tar.gz">upmem-doc-2020.1.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">
+              <p><a class="btn btn-primary btn-sm" href="https://sdk.upmem.com/2020.1.0/" role="button">Online SDK documentation</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mb-2">
+        <div class="col-md-2 themed-grid-col">version <strong>2019.4.0</strong></div>
+        <div class="col-md-10 themed-grid-col">
+
+          <div class="row">
+            <div class="col-md-3">Debian 9 (Stretch) - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2019.4.0/debian_9/upmem-2019.4.0-Linux-x86_64.tar.gz">upmem-2019.4.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2019.4.0/debian_9/upmem_2019.4.0_amd64.deb">upmem_2019.4.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Debian 10 (Buster) - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2019.4.0/debian_10/upmem-2019.4.0-Linux-x86_64.tar.gz">upmem-2019.4.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2019.4.0/debian_10/upmem_2019.4.0_amd64.deb">upmem_2019.4.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Ubuntu 18.04 LTS - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2019.4.0/ubuntu_18.04/upmem-2019.4.0-Linux-x86_64.tar.gz">upmem-2019.4.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2019.4.0/ubuntu_18.04/upmem_2019.4.0_amd64.deb">upmem_2019.4.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Centos 7 - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2019.4.0/centos_7/upmem-2019.4.0-Linux-x86_64.tar.gz">upmem-2019.4.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2019.4.0/centos_7/upmem-2019.4.0-1.x86_64.rpm">upmem-2019.4.0-1.x86_64.rpm</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Documentation tarball</div>
+            <div class="col-md-9"><a href="http://sdk-releases.upmem.com/2019.4.0/upmem-doc-2019.4.0-Linux-x86_64.tar.gz">upmem-doc-2019.4.0-Linux-x86_64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">
+              <p><a class="btn btn-primary btn-sm" href="https://sdk.upmem.com/2019.4.0/" role="button">Online SDK documentation</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mb-2">
+        <div class="col-md-2 themed-grid-col">version <strong>2019.3.0</strong></div>
+        <div class="col-md-10 themed-grid-col">
+
+          <div class="row">
+            <div class="col-md-3">Debian 9 (Stretch) - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2019.3.0/debian_9/upmem-2019.3.0-Linux-amd64.tar.gz">upmem-2019.3.0-Linux-amd64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2019.3.0/debian_9/upmem_2019.3.0_amd64.deb">upmem_2019.3.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Debian 10 (Buster) - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2019.3.0/debian_10/upmem-2019.3.0-Linux-amd64.tar.gz">upmem-2019.3.0-Linux-amd64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2019.3.0/debian_10/upmem_2019.3.0_amd64.deb">upmem_2019.3.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Ubuntu 18.04 LTS - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2019.3.0/ubuntu_18.04/upmem-2019.3.0-Linux-amd64.tar.gz">upmem-2019.3.0-Linux-amd64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2019.3.0/ubuntu_18.04/upmem_2019.3.0_amd64.deb">upmem_2019.3.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Centos 7 - x86_64</div>
+            <div class="col-md-9">tarball <a href="http://sdk-releases.upmem.com/2019.3.0/centos_7/upmem-2019.3.0-Linux-amd64.tar.gz">upmem-2019.3.0-Linux-amd64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">package <a href="http://sdk-releases.upmem.com/2019.3.0/centos_7/upmem-2019.3.0-1.x86_64.rpm">upmem-2019.3.0-1.x86_64.rpm</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Documentation tarball</div>
+            <div class="col-md-9"><a href="http://sdk-releases.upmem.com/2019.3.0/upmem-sdk-documentation-2019.3.0-Linux-amd64.tar.gz">upmem-sdk-documentation-2019.3.0-Linux-amd64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">
+              <p><a class="btn btn-primary btn-sm" href="https://sdk.upmem.com/2019.3.0/" role="button">Online SDK documentation</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mb-2">
+        <div class="col-md-2 themed-grid-col">version <strong>2019.2.0</strong></div>
+        <div class="col-md-10 themed-grid-col">
+
+          <div class="row">
+            <div class="col-md-3">Linux x86_64 tarball</div>
+            <div class="col-md-9"><a href="http://sdk-releases.upmem.com/2019.2.0/upmem-2019.2.0-Linux-amd64.tar.gz">upmem-2019.2.0-Linux-amd64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Debian 9 package</div>
+            <div class="col-md-9"><a href="http://sdk-releases.upmem.com/2019.2.0/upmem_2019.2.0_amd64.deb">upmem_2019.2.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Documentation tarball</div>
+            <div class="col-md-9"><a href="http://sdk-releases.upmem.com/2019.2.0/upmem-sdk-documentation-2019.2.0-Linux-amd64.tar.gz">upmem-sdk-documentation-2019.2.0-Linux-amd64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">
+              <p><a class="btn btn-primary btn-sm" href="https://sdk.upmem.com/2019.2.0/" role="button">Online SDK documentation</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mb-2">
+        <div class="col-md-2 themed-grid-col">version <strong>2019.1.0</strong></div>
+        <div class="col-md-10 themed-grid-col">
+
+          <div class="row">
+            <div class="col-md-3">Linux x86_64 tarball</div>
+            <div class="col-md-9"><a href="http://sdk-releases.upmem.com/2019.1.0/upmem-2019.1.0-Linux-amd64.tar.gz">upmem-2019.1.0-Linux-amd64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Debian 9 package</div>
+            <div class="col-md-9"><a href="http://sdk-releases.upmem.com/2019.1.0/upmem_2019.1.0_amd64.deb">upmem_2019.1.0_amd64.deb</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">Documentation tarball</div>
+            <div class="col-md-9"><a href="http://sdk-releases.upmem.com/2019.1.0/upmem-sdk-documentation-2019.1.0-Linux-amd64.tar.gz">upmem-sdk-documentation-2019.1.0-Linux-amd64.tar.gz</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">
+              <p><a class="btn btn-primary btn-sm" href="https://sdk.upmem.com/2019.1.0/" role="button">Online SDK documentation</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer mt-auto py-3">
+    <div class="container">
+      <span class="text-muted">Copyright UPMEM 2019 All Right Reserved - </span>
+      <span class="text-muted"><a href="http://www.upmem.com/legal-notice/">Legal Notice</a></span>
+    </div>
+  </footer>
+
+
+</body></html>
